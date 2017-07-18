@@ -1,0 +1,422 @@
+/**
+**		Widget display
+**/
+
+
+.factoid_container {
+	width: 100%;
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+.factoid_container.factoid_simple {
+	border: 1px solid #666666;
+	overflow: hidden;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.factoid_container.factoid_simpledark {
+	border: 1px solid #999999;
+	overflow: hidden;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.factoid_container.factoid_simpleblue {
+	border: 1px solid #336699;
+	overflow: hidden;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.factoid_container.factoid_simplewarm {
+	border: 1px solid #661905;
+	overflow: hidden;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.factoid_container.factoid_simplevintage {
+	border: 1px solid #8C2318;
+	overflow: hidden;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.factoid_container.factoid_simpleelegant {
+	overflow: hidden;
+}
+
+.factoid_title_container {
+}
+
+.factoid_title_container.factoid_simple {
+	border-bottom: 1px solid #666666;
+	background-color: #eeeeee;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.factoid_title_container.factoid_simpledark {
+	border-bottom: 1px solid #999999;
+	background-color: #666666;
+	color: #dddddd;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.factoid_title_container.factoid_simpleblue {
+	border-bottom: 1px solid #336699;
+	background-color: #224477;
+	color: #ddeeff;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.factoid_title_container.factoid_simplewarm {
+	border-bottom: 1px solid #661905;
+	background-color: #a8301d;
+	color: #ffd653;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.factoid_title_container.factoid_simplevintage {
+	border-bottom: 1px solid #8C2318;
+	background-color: #BFB35A;
+	color: #8C2318;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.factoid_title_container.factoid_simpleelegant {
+	border-bottom: 2px solid #55555f;
+	color: #000010;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 1.1em;
+	font-weight: 500;
+	font-family: cursive;
+}
+
+.factoid_content_container {
+}
+
+.factoid_content_container.factoid_simple {
+	background-color: #ffffff;
+	padding: 5px;
+}
+
+.factoid_content_container.factoid_simpledark {
+	background-color: #444444;
+	color: #f3f3f3;
+	padding: 5px;
+}
+
+.factoid_content_container.factoid_simpleblue {
+	background-color: #66aadd;
+	color: #f6ffff;
+	padding: 5px;
+}
+
+.factoid_content_container.factoid_simplewarm {
+	background-color: #ffe673;
+	color: #330000;
+	padding: 5px;
+}
+
+.factoid_content_container.factoid_simplevintage {
+	background-color: #Fbd47A;
+	color: #550000;
+	padding: 5px;
+}
+
+.factoid_content_container.factoid_simpleelegant {
+	color: #000010;
+	padding: 5px;
+}
+
+.factoid_header {
+	font-weight: bold;
+}
+
+.factoid_content {
+	line-height: 110%;
+}
+
+.factoid_source {
+	font-style: italic;
+	text-align: right;
+}
+
+.factoid_footer_container {
+	line-height: 95%;
+	font-size: 0.8em;
+	overflow:auto; /** needed to show background colors, otherwise container has no height **/
+}
+
+.factoid_footer_container.factoid_simple {
+	border-top: 1px solid #999999;
+	background-color: #eeeeee;
+}
+
+.factoid_footer_container.factoid_simpledark {
+	border-top: 1px solid #888888;
+	background-color: #666666;
+	color: #dddddd;
+}
+
+.factoid_footer_container.factoid_simpleblue {
+	border-top: 1px solid #336699;
+	background-color: #224477;
+	color: #ddeeff;
+}
+
+.factoid_footer_container.factoid_simplewarm {
+	border-top: 1px solid #661905;
+	background-color: #a8301d;
+	color: #ffd653;
+}
+
+.factoid_footer_container.factoid_simplevintage {
+	border-top: 1px solid #8C2318;
+	background-color: #BFB35A;
+	color: #8C2318;
+}
+
+.factoid_footer_container.factoid_simpleelegant {
+	border-top: 1px solid #66666f;
+	color: #000010;
+}
+
+.factoid_footer_innerleft {
+	float: left;
+}
+
+.factoid_footer_innerleft.factoid_simple {
+	background-color: #eeeeee;
+	text-align: left;
+	padding: 3px 5px 3px 5px;
+}
+
+.factoid_footer_innerleft.factoid_simpledark {
+	background-color: #666666;
+	color: #dddddd;
+	text-align: left;
+	padding: 3px 5px 3px 5px;
+}
+
+.factoid_footer_innerleft.factoid_simpleblue {
+	background-color: #224477;
+	color: #ddeeff;
+	text-align: left;
+	padding: 3px 5px 3px 5px;
+}
+
+.factoid_footer_innerleft.factoid_simplewarm {
+	background-color: #a8301d;
+	color: #ffd653;
+	text-align: left;
+	padding: 3px 5px 3px 5px;
+}
+
+.factoid_footer_innerleft.factoid_simplevintage {
+	background-color: #BFB35A;
+	color: #8C2318;
+	text-align: left;
+	padding: 3px 5px 3px 5px;
+}
+
+.factoid_footer_innerleft.factoid_simpleelegant {
+	color: #000010;
+	text-align: left;
+	padding: 3px 5px 3px 5px;
+}
+
+.factoid_footer_innerright {
+	float: right;
+}
+
+.factoid_footer_innerright.factoid_simple {
+	background-color: #eeeeee;
+	text-align: right;
+	padding: 3px 5px 3px 5px;
+}
+
+.factoid_footer_innerright.factoid_simpledark {
+	background-color: #666666;
+	color: #dddddd;
+	text-align: right;
+	padding: 3px 5px 3px 5px;
+}
+
+.factoid_footer_innerright.factoid_simpleblue {
+	background-color: #224477;
+	color: #ddeeff;
+	text-align: right;
+	padding: 3px 5px 3px 5px;
+}
+
+.factoid_footer_innerright.factoid_simplewarm {
+	background-color: #a8301d;
+	color: #ffd653;
+	text-align: right;
+	padding: 3px 5px 3px 5px;
+}
+
+.factoid_footer_innerright.factoid_simplevintage {
+	background-color: #BFB35A;
+	color: #8C2318;
+	text-align: right;
+	padding: 3px 5px 3px 5px;
+}
+
+.factoid_footer_innerright.factoid_simpleelegant {
+	color: #000010;
+	text-align: right;
+	padding: 3px 5px 3px 5px;
+}
+
+.factoid_image_opacity {
+}
+
+.factoid_image_opacity.factoid_simple {
+	opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.factoid_image_opacity.factoid_simpledark {
+	opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+
+
+/**
+**		Settings page
+**/
+
+.octo_outer {
+	padding: 0px;
+	overflow: none;
+	width: 90%;
+	min-width: 700px;
+}
+
+.octo_menuspace {
+	border: 0px solid #999999;
+	border-bottom: 2px solid #999999;
+	display: inline-block;
+	width: 10px;
+	margin: 0px;
+	font-size: 1.2em;
+	padding: 8px 0px 7px;
+	vertical-align: bottom;
+}
+
+.octo_menufill {
+	border: 0px solid #999999;
+	border-bottom: 2px solid #999999;
+	display: inline-block;
+	width: 150px;
+	margin: 0px;
+	font-size: 1.2em;
+	padding: 8px 0px 8px;
+	vertical-align: bottom;
+}
+
+.octo_menutab {
+	border: 2px solid #999999;
+	background: #e6e9f0;
+	padding: 8px;
+	margin: 0px;
+	display: inline-block;
+	font-size: 1.0em;
+	color: #999999;
+	vertical-align: bottom;
+}
+
+.octo_menutab:hover {
+	background: #ffffd0;
+	color: #336699;
+}
+
+.octo_menuopen {
+	border: 2px solid #999999;
+	border-bottom: 2px solid #ffffff;
+	background: #ffffff;
+	padding: 8px;
+	margin: 0px;
+	display: inline-block;
+	font-size: 1.3em;
+	color: #336699;
+	vertical-align: bottom;
+}
+
+.octo_menutab a {
+	text-decoration: none;
+	color: #999999;
+}
+
+.octo_menutab a:hover {
+	color: #336699;
+}
+
+.octo_menuopen a {
+	text-decoration: none;
+	color: #336699;
+}
+
+.octo_settingstable {
+	width: 85%;
+	min-width: 750px;
+	max-width: 950px;
+	padding: 0px;
+	margin: 10px 0px;
+	border: 1px solid #999999;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px; /* future proofing */
+	-moz-box-shadow:    2px 2px 2px #ccc;
+	-webkit-box-shadow: 2px 2px 2px #ccc;
+	box-shadow:         2px 2px 2px #ccc;
+}
+
+.octo_settingstable p {
+	padding: 5px 10px 5px 10px;
+}
+
+.octo_settingstable h3 {
+	padding: 1px 1px 1px 10px;
+}
+
+.octo_settingstable td {
+	padding: 2px 4px 2px 4px;
+	font-size: 0.9em;
+}
+
+.octo_settingstable th {
+	padding: 2px 4px 2px 4px;
+	font-weight: bold;
+	background-color: #cccccc;
+}
+
+.octo_settingstable input {
+	font-size: 0.9em;
+}
+
